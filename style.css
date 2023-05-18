@@ -12,6 +12,14 @@ header {
   width: 100%;
 }
 
+h2 {
+  margin-bottom: 0px;
+}
+
+p {
+  margin-bottom: 0px;
+}
+
 nav div {
   color: darkgray;
 }
@@ -33,17 +41,24 @@ display: flex;
 justify-content:
 }
 
-article {
+article div {
   overflow: scroll;
   width: 465px;
+  height: 375px;
   margin-left: 15px;
 }
 
 button {
-  border-radius: 6px;
-  border: none;
   background-color: black;
   color: white;
+  font-size: 14px;
+  padding: 4px 20px;
+  margin-top: 12px;
+  margin-left: 15px;
+}
+
+button:hover {
+  background-color: rgb(66, 71, 76);
 }
 
 footer {
