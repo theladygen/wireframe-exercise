@@ -13,11 +13,8 @@ header {
 }
 
 h2 {
-  margin-bottom: 0px;
-}
-
-p {
-  margin-bottom: 0px;
+  font-size: larger;
+  padding-bottom: 10px;
 }
 
 nav div {
@@ -38,7 +35,7 @@ img {
 
 section {
 display: flex;
-justify-content:
+justify-content: center;
 }
 
 article div {
